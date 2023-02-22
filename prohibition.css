@@ -1,0 +1,114 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+</style>
+
+:root {
+    --body-copy: 16px;
+    --page-spacing: 24px;
+    --spacing-unit:6px
+}
+
+body{
+    color: white;
+    background-color: black;
+    padding: 40px;
+    
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.stroke{
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+.hline{
+    border:solid 1px white;
+            width: 100%;
+            color: white;
+            height: 1px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+}
+
+.arrow{
+    width: 130%;
+    height: 130%;
+}
+
+span {
+    content: "\21E9";
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .spantwo {
+    content: "\21E8";
+    display: block;
+    font-size: 40px;
+    margin-left: 40px;
+  }
+
+  .homeimage {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .navimage {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 40px;
+    margin-right: 40px;
+  }
+
+  .content {
+    margin-bottom: 40px;
+  }
+
+  .next{
+    display: inline-block;
+  }
+
+  .middle{
+    vertical-align: middle;
+  }
+
