@@ -1,0 +1,126 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+</style>
+
+:root {
+    --spacing: 16px;
+   
+}
+
+@media (min-width: 768px){
+    section.section-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .section-header {
+        flex-basis: 60%;
+    }
+    .section-nav {
+        flex-basis: 40%;
+    }
+    .section-wrapper .positiontitle,
+    .section-wrapper .channel-description {
+        margin-left: 0;
+        text-align: left;
+    }
+    .section-wrapper .tabletarrow,
+    .section-wrapper .homeimage,
+    .section-wrapper .channel-title {
+        margin-left: 0;
+        text-align: center;
+    }
+    .section-wrapper .homeimage {
+        margin: auto;
+    }
+}
+
+.squaremain{
+    background-color: white;
+    width: 389px;
+    height: 307px;
+
+}
+
+@media (min-width: 768px){
+    .squaremain{
+        background-color: white;
+        width: 389px;
+        height: 534px;
+    
+    }   
+}
+
+.squareimage{
+    background-color: rgb(170, 170, 171);
+    width: 132px;
+    height: 102px;
+}
+
+@media (min-width: 768px){
+    .squareimage{
+        height: 53px;
+}
+}
+
+@media (min-width: 768px){
+    .squareimage{
+        height: 95px;
+}
+}
+
+.squarelink{
+    background-color: rgb(228, 134, 75);
+    width: 132px;
+    height: 102px;
+}
+
+@media (min-width: 768px){
+    .squarelink{
+        height: 53px;
+}
+}
+
+@media (min-width: 768px){
+    .squarelink{
+        height: 95px;
+}
+}
+
+.squaretext{
+    background-color: rgb(135, 221, 116);
+    width: 132px;
+    height: 102px;
+}
+
+@media (min-width: 768px){
+    .squaretext{
+        height: 53px;
+}
+}
+
+@media (min-width: 768px){
+    .squaretext{
+        height: 95px;
+}
+}
+
+.squarevideo{
+    background-color: rgb(131, 205, 235);
+    width: 132px;
+    height: 102px;
+}
+
+@media (min-width: 768px){
+    .squarevideo{
+        height: 53px;
+}
+}
+
+@media (min-width: 768px){
+    .squarevideo{
+        height: 95px;
+}
+}
+
